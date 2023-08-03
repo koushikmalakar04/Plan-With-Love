@@ -12,7 +12,7 @@ export default function Tours({tours, interestedHandler, removeHandler}) {
     {
             tours.map((tour) =>{
                     return(
-                        <Card {...tour} removeHandler={removeHandler}  interestedHandler={interestedHandler}/>
+                        <Card key={tour.id} {...tour} removeHandler={removeHandler}  interestedHandler={interestedHandler}/>
                     )
             })
 
