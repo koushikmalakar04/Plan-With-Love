@@ -6,7 +6,7 @@ export default function Tours({tours, interestedHandler, removeHandler}) {
     <div className='container'>
 
     <div>
-      <h2 className='title'>Plan With Love</h2>
+      <h2 className='title'>Choose Your Favorite Travel Destination</h2>
     </div>
     <div className="cards">
     {
